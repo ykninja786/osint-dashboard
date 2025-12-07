@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OSINT Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>OSINT Dashboard</h1>
+    <p>Tor connection status: {{ tor_status }}</p>
+    <p>Database entries: {{ entry_count }}</p>
+</body>
+</html>
